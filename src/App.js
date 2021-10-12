@@ -1,11 +1,11 @@
-import Main from "./components/main"
+import Main from "./components/main";
 
 const App = () => {
-    return (
-        <div>
-           <Main /> 
-        </div>
-    )
-}
+	return (
+		<div className={"container"}>
+			<Main />
+		</div>
+	);
+};
 
-export default App
+export default App;
